@@ -79,9 +79,7 @@ snakeshit.add_part((1, 1))
 while 1:
     # checking the system for events
     for event in pygame.event.get():
-        if event.type == pygame.QUIT: sys.exit()
-        if event.type == pygame.KEYDOWN: 
-            
+        if event.type == pygame.QUIT: sys.exit()   
     
     # making the screen black
     screen.fill((0,0,0))
