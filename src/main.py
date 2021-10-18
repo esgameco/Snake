@@ -39,7 +39,7 @@ class GameObject:
 
 class Snake: 
     """ 
-        GameObject
+        Snake
 
             image: GameObject - the snake image class
     """
